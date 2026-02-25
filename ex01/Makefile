@@ -1,4 +1,4 @@
-NAME = exec00
+NAME = exec01
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 
