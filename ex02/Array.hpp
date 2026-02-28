@@ -22,8 +22,8 @@ class Array
 		Array& operator=(const Array &other);
 
 		unsigned int getSize() const;
-		T& operator[](size_t _data);
-		const T& operator[](size_t _data) const;
+		T& operator[](unsigned int _data);
+		const T& operator[](unsigned int _data) const;
 
 };
 
