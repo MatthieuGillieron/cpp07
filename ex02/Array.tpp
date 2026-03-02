@@ -18,7 +18,7 @@ Array<T>::Array(const Array& val) : _size(val._size), _data(NULL)
 {
 	_data = new T[_size];
 
-	for (int i = 0; i < _size; i++)
+	for (unsigned int i = 0; i < _size; i++)
 		_data[i] = val._data[i];
 
 }
